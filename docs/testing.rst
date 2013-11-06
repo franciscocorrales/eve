@@ -45,13 +45,13 @@ yourself with
 
     $ pip install redis
     
-Continous Integration
+Continuous Integration
 ---------------------
 Each time code is pushed to either the ``develop`` or the ``master``  branch
 the whole test-suite is executed on Travis-CI. This is also the case for
 pull-requests. When a pull request is submitted and the CI run fails two things
 happen: a 'the build is broken' email is sent to the submitter; the request is
-rejected.  The contributor can then fix the code, add one or more commits as
+rejected.  The contributor can then fix the code, add one or more commits asco
 needed, and push again.
 
 The CI will also run flake8 so make sure that your code complies to PEP8 before
