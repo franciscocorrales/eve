@@ -597,7 +597,7 @@ values.
 Predefined Database Filters
 ---------------------------
 Resource endpoints will only expose (and update) documents that match
-a predefined filter. This allows for multiple resource endpoints to seamlessy
+a predefined filter. This allows for multiple resource endpoints to seamlessly
 target the same database collection. A typical use-case would be a
 hypothetical ``people`` collection on the database being used by both the
 ``/admins`` and ``/users`` API endpoints.
